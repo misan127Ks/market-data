@@ -1,0 +1,107 @@
+{
+  "updated_utc": "2026-11-26T13:32:39Z",
+  "updated_jst": "2026-11-26 22:32:39 JST",
+  "ok": true,
+  "error_count": 0,
+  "errors": [],
+  "files": {
+    "BTC_1d": {
+      "ok": true,
+      "rows": 120,
+      "first_time_utc": "2026-07-30T00:00:00Z",
+      "last_time_utc": "2026-11-26T00:00:00Z",
+      "last_close": 60792.8,
+      "last_closed_time_utc": "2026-11-25T00:00:00Z",
+      "source": "kraken:XBTUSD:1440"
+    },
+    "BTC_4h": {
+      "ok": true,
+      "rows": 120,
+      "first_time_utc": "2026-11-06T16:00:00Z",
+      "last_time_utc": "2026-11-26T12:00:00Z",
+      "last_close": 60792.8,
+      "last_closed_time_utc": "2026-11-26T08:00:00Z",
+      "source": "kraken:XBTUSD:240"
+    },
+    "ETH_1d": {
+      "ok": true,
+      "rows": 120,
+      "first_time_utc": "2026-07-30T00:00:00Z",
+      "last_time_utc": "2026-11-26T00:00:00Z",
+      "last_close": 1703.7,
+      "last_closed_time_utc": "2026-11-25T00:00:00Z",
+      "source": "kraken:ETHUSD:1440"
+    },
+    "ETH_4h": {
+      "ok": true,
+      "rows": 120,
+      "first_time_utc": "2026-11-06T16:00:00Z",
+      "last_time_utc": "2026-11-26T12:00:00Z",
+      "last_close": 1703.93,
+      "last_closed_time_utc": "2026-11-26T08:00:00Z",
+      "source": "kraken:ETHUSD:240"
+    },
+    "ADA_1d": {
+      "ok": true,
+      "rows": 120,
+      "first_time_utc": "2026-07-30T00:00:00Z",
+      "last_time_utc": "2026-11-26T00:00:00Z",
+      "last_close": 0.148972,
+      "last_closed_time_utc": "2026-11-25T00:00:00Z",
+      "source": "kraken:ADAUSD:1440"
+    },
+    "ADA_4h": {
+      "ok": true,
+      "rows": 120,
+      "first_time_utc": "2026-11-06T16:00:00Z",
+      "last_time_utc": "2026-11-26T12:00:00Z",
+      "last_close": 0.148972,
+      "last_closed_time_utc": "2026-11-26T08:00:00Z",
+      "source": "kraken:ADAUSD:240"
+    },
+    "USDJPY_1d": {
+      "ok": true,
+      "rows": 104,
+      "first_time_utc": "2026-07-23T00:00:00Z",
+      "last_time_utc": "2026-11-26T00:00:00Z",
+      "last_close": 159.24699,
+      "last_closed_time_utc": "2026-11-25T00:00:00Z",
+      "source": "yfinance:USDJPY=X:1h->1d",
+      "hourly_rows": 2120,
+      "hourly_last_utc": "2026-11-26T13:00:00Z"
+    },
+    "USDJPY_4h": {
+      "ok": true,
+      "rows": 120,
+      "first_time_utc": "2026-10-29T16:00:00Z",
+      "last_time_utc": "2026-11-26T12:00:00Z",
+      "last_close": 159.24699,
+      "last_closed_time_utc": "2026-11-26T08:00:00Z",
+      "source": "yfinance:USDJPY=X:1h->4h",
+      "hourly_rows": 2120,
+      "hourly_last_utc": "2026-11-26T13:00:00Z"
+    },
+    "GOLD_1d": {
+      "ok": true,
+      "rows": 90,
+      "first_time_utc": "2026-08-12T00:00:00Z",
+      "last_time_utc": "2026-11-26T00:00:00Z",
+      "last_close": 3620.3999,
+      "last_closed_time_utc": "2026-11-25T00:00:00Z",
+      "source": "yfinance:GC=F:1h->1d",
+      "hourly_rows": 1726,
+      "hourly_last_utc": "2026-11-26T04:00:00Z"
+    },
+    "GOLD_4h": {
+      "ok": true,
+      "rows": 120,
+      "first_time_utc": "2026-10-30T00:00:00Z",
+      "last_time_utc": "2026-11-26T04:00:00Z",
+      "last_close": 3620.3999,
+      "last_closed_time_utc": "2026-11-26T04:00:00Z",
+      "source": "yfinance:GC=F:1h->4h",
+      "hourly_rows": 1726,
+      "hourly_last_utc": "2026-11-26T04:00:00Z"
+    }
+  }
+}
