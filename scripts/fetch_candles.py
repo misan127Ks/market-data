@@ -2,7 +2,7 @@
 """Fetch OHLC candles and save them to data/*.csv.
 
 - BTC / ETH / ADA : Kraken public API (daily = 1440 min, 4h = 240 min)
-- USDJPY / GOLD   : yfinance 1h bars (90 days) aggregated to UTC-midnight daily
+- USDJPY / GOLD   : yfinance 1h bars (200 days) aggregated to UTC-midnight daily
                     and UTC-aligned 4h bars (00,04,08,12,16,20 UTC)
 
 Columns: time_utc, open, high, low, close, volume, closed
@@ -31,7 +31,7 @@ KRAKEN_PAIRS = {"BTC": "XBTUSD", "ETH": "ETHUSD", "ADA": "ADAUSD"}
 KRAKEN_INTERVALS = {"1d": 1440, "4h": 240}
 
 YF_TICKERS = {"USDJPY": "USDJPY=X", "GOLD": "GC=F"}
-YF_PERIOD = "90d"
+YF_PERIOD = "200d"  # enough history for 120 daily bars (1h data is available up to 730d)
 YF_RULES = {"1d": ("24h", timedelta(days=1)), "4h": ("4h", timedelta(hours=4))}
 
 
