@@ -128,7 +128,7 @@ def aggregate(h: pd.DataFrame, rule: str, span: timedelta, now: datetime) -> pd.
     agg["closed"] = (agg.index + span) <= pd.Timestamp(now)
     agg["time_utc"] = agg.index.map(iso)
     for c in ["open", "high", "low", "close"]:
-        agg[c] = agg[c].round(5)
+        agg[c] = agg[c].round(3)  # float32 noise from yfinance; USDJPY quotes 3dp
     agg["volume"] = agg["volume"].round(0).astype("int64")
     return agg.reset_index(drop=True)
 
